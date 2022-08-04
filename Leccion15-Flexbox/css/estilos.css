@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px #a8dadc;
+    color: #e63046;
+}
+
+
+div.contenedor{
+    display: flex;
+    background-color: #560bad;
+    /*Manera vertical*/
+    /* flex-direction: column; */
+    /*En distinto orden o forma inversa*/
+    /* flex-direction: column-reverse; */
+    /*Valor por default en horizontal, tambien se puede row-reverse*/
+    /* flex-direction: row; 
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    /* Valor por default */
+    /* justify-content: flex-start; */
+    /* valor al centro */
+    /* justify-content: center; */
+    /* valores hacia la derecha */
+    /* justify-content: end; */
+    /* valor separados pero los finales pegados a la izq y derecha */
+    /* justify-content: space-between; */
+    /* con espacios en los lados derechos izq */
+    /* justify-content: space-around; */
+    /* para dejar el mismo esapcio en ambos lados */
+    justify-content: center;
+    height: 300px;
+    /*para que los elementos no se alargue y solo se apeguen al inicio del div, de forma horzontal*/
+    align-items: center;
+    /*para hacerlo de manera vertical*/
+    align-content: center;
+}
+
+div.contenedor >p{
+    background-color: #4895ef;
+    color: #f1faee;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+ 
+}

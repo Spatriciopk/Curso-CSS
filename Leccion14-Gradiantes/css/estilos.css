@@ -1,0 +1,32 @@
+
+html{
+    height: auto;
+    min-height: 100%; /*todo esto para q no se repita sino q se aplique a toda la pantalla*/
+ } 
+ body{ 
+    /*background:linear-gradient(#f72585,#3a0ca3); */
+    /* background: linear-gradient(to right,#f72585,#3a0ca3); */
+    /* background: linear-gradient(#24404d,#6dbff1,black); */
+   /*  background: linear-gradient(to bottom right,#f72585,#3a0ca3); */
+    /* background: linear-gradient(270deg,#f72585,#3a0ca3); */
+    background: radial-gradient(circle,#B9FBC0,#98F5E1); 
+    /* color: #f1faee; */
+ }  
+
+
+
+
+
+
+h1{
+    text-align: center;
+    text-shadow: 2px 2px gray;
+}
+
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    text-align: center;
+}
